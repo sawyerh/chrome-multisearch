@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Test Extension Options</title>
+  <style>
+    body: { padding: 10px; }
+    .sites-list{
+      list-style: none;
+      padding: 0;
+    }
+
+    label{
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .field{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .add-site{
+      margin-top: 10px;
+    }
+
+    .field-wrap{
+      margin-bottom: 20px;
+    }
+
+    .sites-list li{
+      margin: 0 0 10px;
+      padding: 10px 0 0;
+      border-top: 1px dotted #999;
+      overflow: hidden;
+      font-size: 16px;
+    }
+
+    .sites-list button{
+      float: right;
+      padding: 0 8px;
+      min-width: 0;
+      margin-left: 3px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="field-wrap">
+    <label for="f_domain">New site</label>
+    <input class="field" id="f_domain" name="domain" type="text" placeholder="example.com">
+    <button class="add-site">&plus; Add site</button>
+  </div>
+
+  <ul class="sites-list"></ul>
+
+  <script type="text/javascript" src="options.js"></script>
+</body>
+</html>
