@@ -1,9 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Multi-search New Tab",
+  "name": "Multisearch",
   "version": "1.0.1",
-  "description": "Replaces the New Tab screen with site-specific search fields, which you can customize.",
+  "description": "Replaces the New Tab screen with site-specific Google search fields, which you can customize.",
   "author": "Sawyer Hollenshead",
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png"
+  },
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
